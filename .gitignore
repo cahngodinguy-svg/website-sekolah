@@ -48,3 +48,29 @@ AGENTS.md
 
 # Cache dan log lokal
 *.log
+# Environment dan secrets
+.env
+.env.*
+!.env.example
+
+# AI coding agents dan skills
+.agents/
+.claude/
+.opencode/
+.gemini/
+.cursor/
+
+# Instruksi agent
+AGENTS.md
+**/AGENTS.md
+CLAUDE.md
+**/CLAUDE.md
+GEMINI.md
+**/GEMINI.md
+
+# Konfigurasi MCP
+.mcp.json
+mcp.json
+
+# Instruksi GitHub Copilot
+.github/copilot-instructions.md
