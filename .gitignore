@@ -27,3 +27,24 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Environment dan secrets
+.env
+.env.*
+!.env.example
+
+# File dan konfigurasi agent AI
+AGENTS.md
+**/AGENTS.md
+.opencode/
+.opencode.json
+.claude/
+.gemini/
+.github/copilot-instructions.md
+
+# File lokal editor
+.vscode/
+.idea/
+
+# Cache dan log lokal
+*.log
